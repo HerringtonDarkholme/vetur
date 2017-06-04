@@ -1,0 +1,347 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Vetur · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-theme-vuejs/vue.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="formatting.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter active" data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Vetur
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="formatting.html">
+            
+                <a href="formatting.html">
+            
+                    
+                    Formatting
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="CHANGELOG.html">
+            
+                <a href="CHANGELOG.html">
+            
+                    
+                    Changelog
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Vetur</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="vetur">Vetur</h1>
+<p>Vue tooling for VSCode.  </p>
+<p>This extension is in development and not stable yet.<br>You can <a href="https://github.com/octref/vetur/issues/new" target="_blank">open an issue</a> for bugs or feature requests.</p>
+<h2 id="implemented-features">Implemented Features</h2>
+<ul>
+<li>Basic IntelliSense for <code>html/css/scss/less/js</code></li>
+<li>Advanced IntelliSense to suggest <code>v-</code> directives and <code>key</code>, <code>ref</code>, <code>slot</code> as <code>html</code> attributes</li>
+<li>IntelliSense such as <code>scaffold</code>, <code>template with pug</code>, <code>style with scss</code> outside all language regions</li>
+<li>Some advanced IntelliSense for <code>js/ts</code>, including:<ul>
+<li>Some IntelliSense for <code>this</code> in Vue Component</li>
+<li>Module Resolution for node libraries, some Module Resolution for Vue Component</li>
+</ul>
+</li>
+<li>Linting for <code>js</code> via ESLint, basic error checking for <code>css/scss/less</code></li>
+<li>Formatting for <code>html/css/scss/less/js/ts</code> with <a href="https://github.com/octref/vetur/blob/master/docs/formatting.md" target="_blank">options</a></li>
+<li>Syntax highlighting for:<ul>
+<li><code>html/jade/pug</code></li>
+<li><code>css/sass/scss/less/stylus/postcss</code></li>
+<li><code>js/ts/coffee</code></li>
+</ul>
+</li>
+<li>Embedded snippet support<ul>
+<li>Use <code>vue</code> snippet outside all regions</li>
+<li>Use each language&apos;s snippet inside its region</li>
+<li>Define <code>html</code> snippets you want to use inside <code>&lt;template&gt;</code> as <code>vue-html</code> snippet</li>
+</ul>
+</li>
+<li>Emmet for <code>html/css/sass/scss/less</code></li>
+</ul>
+<h2 id="demo">Demo</h2>
+<p>Try for yourself on this project: <a href="https://github.com/vuejs/vue-hackernews-2.0" target="_blank">vue-hackernews-2.0</a>.</p>
+<h2 id="setup">Setup</h2>
+<ul>
+<li><p>Install <a href="https://marketplace.visualstudio.com/items?itemName=octref.vetur" target="_blank">vetur</a></p>
+</li>
+<li><p>If you have a <code>tsconfig.json</code> / <code>jsconfig.json</code>, you must include <code>*.vue</code> files in its <code>include</code> for language features such as IntelliSense and hover-to-show-type to work on <code>*.vue</code> files.</p>
+<ul>
+<li>:no_entry_sign: <code>include: [&apos;src/**/*.ts&apos;]</code></li>
+<li>:star: <code>include: [&apos;src/**/*&apos;]</code></li>
+<li>:star: <code>include: [&apos;src/**/*.ts&apos;, &apos;src/**/*.vue&apos;]</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="optional-setup">Optional Setup</h3>
+<p><strong>Emmet</strong>:</p>
+<ul>
+<li><p>In your user settings, set</p>
+<pre><code class="lang-json"><span class="hljs-string">&quot;emmet.syntaxProfiles&quot;</span>: {
+  <span class="hljs-string">&quot;vue-html&quot;</span>: <span class="hljs-string">&quot;html&quot;</span>,
+  <span class="hljs-string">&quot;vue&quot;</span>: <span class="hljs-string">&quot;html&quot;</span>
+}
+</code></pre>
+</li>
+</ul>
+<p><strong>ESLint</strong> for linting <code>&lt;script&gt;</code> section:</p>
+<ul>
+<li>Install <a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint" target="_blank">ESLint extension</a></li>
+<li><p>Add <code>vue</code> to your <code>eslint.validate</code> setting, for example:</p>
+<pre><code class="lang-json"><span class="hljs-string">&quot;eslint.validate&quot;</span>: [
+  <span class="hljs-string">&quot;javascript&quot;</span>,
+  <span class="hljs-string">&quot;javascriptreact&quot;</span>,
+  <span class="hljs-string">&quot;vue&quot;</span>
+]
+</code></pre>
+</li>
+</ul>
+<p><strong>Stylus</strong>:</p>
+<ul>
+<li>Install <a href="https://marketplace.visualstudio.com/items?itemName=sysoev.language-stylus" target="_blank">Stylus extension</a> for Stylus support</li>
+</ul>
+<h2 id="roadmap">Roadmap</h2>
+<p>See <a href="https://github.com/octref/vetur/issues/188" target="_blank">#188</a>.</p>
+<h2 id="contribution">Contribution</h2>
+<p>See <a href="https://github.com/octref/vetur/blob/master/CONTRIBUTING.md" target="_blank">CONTRIBUTING.md</a></p>
+<h2 id="credits">Credits</h2>
+<ul>
+<li>Logo from <a href="https://github.com/vuejs/vuejs.org" target="_blank">vuejs/vuejs.org</a></li>
+<li>Grammar based on <a href="https://github.com/vuejs/vue-syntax-highlight" target="_blank">vuejs/vue-syntax-highlight</a></li>
+<li>Sass grammar based on <a href="https://github.com/robinbentley/vscode-sass-indented" target="_blank">robinbentley/vscode-sass-indented</a></li>
+<li>PostCSS grammar based on <a href="https://github.com/azat-io/atom-language-postcss" target="_blank">azat-io/atom-language-postcss</a></li>
+<li>Language Server based on VSCode&apos;s <a href="https://github.com/Microsoft/vscode/tree/master/extensions/html" target="_blank">html extension</a></li>
+</ul>
+<h2 id="license">License</h2>
+<p>MIT &#xA9; <a href="https://github.com/octref" target="_blank">Pine Wu</a> </p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="formatting.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Formatting">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Vetur","level":"1.1","depth":1,"next":{"title":"Formatting","level":"2.1","depth":1,"path":"formatting.md","ref":"formatting.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","edit-link","theme-vuejs@git+https://github.com/pearofducks/gitbook-plugin-theme-vuejs.git","-fontsettings","github"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"edit-link":{"label":"Edit This Page","base":"https://github.com/octref/vetur/edit/master/docs"},"github":{"url":"https://github.com/octref/vetur"},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"theme-vuejs":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"links":{"sharing":{"facebook":false,"twitter":false}},"gitbook":">3.0.0"},"file":{"path":"README.md","mtime":"2017-06-04T04:33:16.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-06-04T04:58:38.998Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+
+    </body>
+</html>
+
